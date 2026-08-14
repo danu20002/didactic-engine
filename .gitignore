@@ -1,0 +1,36 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+.gradle/
+build/
+
+# IDE and OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs and captures
+*.log
+*.pcap
+*.pcapng
+
+# Lab images and archives
+*.ova
+*.vdi
+*.vmdk
+*.iso
